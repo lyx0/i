@@ -1,3 +1,6 @@
+## lidl changes
+use a 6 letter/number slug instead of adjectives.
+
 # i
 
 i is a minimal program for uploading files to your server and getting a "i.example.com/file.png" link back, similar to imgur.com. It is compatible with the open source image capture program [Share X](https://getsharex.com/).
