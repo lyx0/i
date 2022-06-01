@@ -84,8 +84,8 @@ func main() {
 
 	// create server with read and write timeouts and the desired address
 	server := &http.Server{
-		ReadTimeout:  time.Minute,
-		WriteTimeout: time.Minute,
+		ReadTimeout:  30 * time.Minute,
+		WriteTimeout: 30 * time.Minute,
 		Addr:         address,
 	}
 
